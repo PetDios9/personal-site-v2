@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="col-span-2 flex justify-center">
         <div className="w-max">
           <h1 className="delay-150 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-orange-500 pr-5 text-5xl text-orange-500 font-bold italic">
-            Peter :-)
+            Peter! :-)
           </h1>
         </div>
       </div>

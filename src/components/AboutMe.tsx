@@ -5,14 +5,24 @@ export default function AboutMe() {
     <div className="grid grid-cols-2 justify-center content-center p-6 gap-12 h-screen w-auto">
       <div className="col-span-2 flex justify-center">
         <div className="w-max">
-          <h1 className="text-5xl font-bold">Hello World, My Name Is</h1>
+          <h1 className="text-5xl font-bold">Hello World,</h1>
         </div>
       </div>
       <div className="col-span-2 flex justify-center">
         <div className="w-max">
-          <h1 className="delay-150 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-orange-500 pr-5 text-5xl text-orange-500 font-bold italic">
-            Peter! :-)
-          </h1>
+          <h2 className="overflow-hidden whitespace-nowrap pr-5 text-4xl font-bold text-center">
+            I am
+          </h2>
+          <span className="text-orange-500 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+            <ul className="text-4xl block animate-text-slide text-center leading-tight [&_li]:block">
+              <li>Peter :-)</li>
+              <li>a Software Engineer</li>
+              <li>a Problem Solver</li>
+              <li>a Leader</li>
+              <li>an Innovator</li>
+              <li aria-hidden="true">Peter :-)</li>
+            </ul>
+          </span>
         </div>
       </div>
       <div className="flex items-center">

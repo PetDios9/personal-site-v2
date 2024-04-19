@@ -5,8 +5,13 @@ export default function AboutMe() {
     <div className="grid grid-cols-2 justify-center content-center p-6 gap-12 h-screen w-auto">
       <div className="col-span-2 flex justify-center">
         <div className="w-max">
-          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
-            Hello World, My Name is Peter!!
+          <h1 className="text-5xl font-bold">Hello World, My Name Is</h1>
+        </div>
+      </div>
+      <div className="col-span-2 flex justify-center">
+        <div className="w-max">
+          <h1 className="delay-150 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-orange-500 pr-5 text-5xl text-orange-500 font-bold italic">
+            Peter :-)
           </h1>
         </div>
       </div>

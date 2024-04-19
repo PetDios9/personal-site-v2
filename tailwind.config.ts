@@ -24,12 +24,12 @@ const config: Config = {
             borderColor: "transparent",
           },
           "100%": {
-            borderColor: "white",
+            borderColor: "orange-500",
           },
         },
       },
       animation: {
-        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+        typing: "typing 1s steps(10) infinite alternate, blink .7s infinite",
       },
       fontFamily: {
         cedarville: ['"Cedarville Cursive"', "cursive"],

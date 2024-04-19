@@ -3,8 +3,12 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <div className="grid grid-cols-2 justify-center content-center p-6 gap-12 h-screen w-auto">
-      <div className="col-span-2">
-        <p className="text-center text-4xl font-cedarville">Hello World</p>
+      <div className="col-span-2 flex justify-center">
+        <div className="w-max">
+          <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
+            Hello World, My Name is Peter!!
+          </h1>
+        </div>
       </div>
       <div className="flex items-center">
         <p className="text-center">

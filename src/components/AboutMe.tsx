@@ -2,32 +2,34 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="grid grid-cols-2 justify-center content-center p-6 gap-8 h-screen w-auto">
-      <div className="flex flex-col justify-center items-center gap-2">
-        <h2 className="overflow-hidden whitespace-nowrap pr-5 text-6xl font-bold text-center">
+    <div className="lg:grid lg:grid-cols-2 lg:justify-center lg:content-center xl:pl-20 gap-8 w-auto">
+      <div className="h-[90vh] lg:h-auto flex flex-col justify-center items-center lg:items-start gap-2">
+        <h2 className="overflow-hidden whitespace-nowrap pl-6 text-4xl xl:text-6xl font-bold text-left">
           Hello World!
         </h2>
-        <h2 className="overflow-hidden whitespace-nowrap pr-5 text-5xl font-bold text-center">
+        <h2 className="overflow-hidden whitespace-nowrap pl-6 text-4xl xl:text-6xl font-bold text-left">
           I am
         </h2>
-        <span className="text-orange-500 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
-          <ul className="text-4xl font-bold block animate-text-slide text-center leading-tight [&_li]:block">
-            <li>Peter :-)</li>
-            <li>a Software Engineer</li>
-            <li>a Problem Solver</li>
-            <li>a Leader</li>
-            <li>an Innovator</li>
-            <li aria-hidden="true">Peter :-)</li>
+        <span className="text-orange-500 inline-flex pl-6 flex-col h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] 2xl:h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] overflow-hidden">
+          <ul className="text-4xl xl:text-6xl font-bold block animate-text-slide-5 text-center lg:text-left leading-tight [&_li]:block text-nowrap">
+            <li className="pb-7">Peter :-)</li>
+            <li className="pb-7">a Software Engineer</li>
+            <li className="pb-7">a Problem Solver</li>
+            <li className="pb-7">a Leader</li>
+            <li className="pb-7">an Innovator</li>
+            <li className="pb-7" aria-hidden="true">
+              Peter :-)
+            </li>
           </ul>
         </span>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center h-screen w-full bg-cover max-w-fit	">
         <Image
           src="/IMG_4737-min.jpeg"
-          width={400}
-          height={500}
+          width={900}
+          height={1000}
           alt="Peter Diosdado"
-          className="shadow-[20px_25px_23px_0px_#ed8936] text-center rounded-lg"
+          className=" object-cover"
         />
       </div>
     </div>

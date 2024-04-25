@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="flex flex-row justify-center gap-6 md:gap-10 p-8 border-b-2 border-orange-400 bg-black">
+    <nav className="flex flex-row justify-center gap-6 md:gap-10 p-8 border-b-2 border-orange-400 bg-black w-screen">
       <a
         href="https://github.com/petdios9"
         target="_blank"

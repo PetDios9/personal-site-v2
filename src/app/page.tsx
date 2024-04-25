@@ -6,7 +6,7 @@ import Portrait from "../components/Portrait";
 export default function Home() {
   return (
     <div className="relative flex flex-col">
-      <div className="sticky top-0 z-50 hidden lg:block">
+      <div className="fixed top-0 z-50 hidden lg:block">
         <Header />
       </div>
       <div className="sticky top-0 lg:z-40">

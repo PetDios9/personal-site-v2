@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="lg:grid lg:grid-cols-2 lg:justify-center lg:content-center w-auto">
-      <div className="h-screen lg:h-auto flex flex-col justify-center items-center lg:items-start lg:pl-14 xl:pl-20 gap-3">
+    <div className="h-screen lg:grid lg:grid-cols-2 lg:justify-center lg:content-center w-auto">
+      <div className="z-40 h-screen lg:h-auto flex flex-col justify-center items-center lg:items-start lg:pl-14 xl:pl-20 gap-3 bg-black">
         <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
           Hello World!
         </h2>
@@ -29,15 +29,7 @@ export default function AboutMe() {
           </ul>
         </span>
       </div>
-      <div className="flex justify-center h-screen w-full bg-cover max-w-fit">
-        <Image
-          src="/IMG_4737-min.jpeg"
-          width={900}
-          height={1000}
-          alt="Peter Diosdado"
-          className="object-cover"
-        />
-      </div>
+      <div className="lg:flex justify-center bg-cover bg-center h-screen"></div>
     </div>
   );
 }

@@ -1,16 +1,19 @@
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
-import Image from "next/image";
+import Portrait from "../components/Portrait";
 
 export default function Home() {
   return (
     <div className="relative flex flex-col">
-      <div className="sticky top-0 z-50 lg:visible invisible">
+      <div className="sticky top-0 z-50 hidden lg:block">
         <Header />
       </div>
-      <div>
+      <div className="sticky top-0 lg:z-40">
         <AboutMe />
+      </div>
+      <div className="sticky top-0" id="portrait">
+        <Portrait />
       </div>
       <div className="sticky top-0" id="projects">
         <Contact />

@@ -16,7 +16,7 @@ export default function AboutMe() {
         nulla facilisi.
       </p>
       <h2 className="lg:text-3xl font-medium">Personal</h2>
-      <p className="lg:text-xl">
+      <p className="lg:text-xl font-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Imperdiet proin
         fermentum leo vel. Facilisis leo vel fringilla est ullamcorper eget

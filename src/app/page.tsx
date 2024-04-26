@@ -8,23 +8,23 @@ import AboutMe from "../components/AboutMe";
 export default function Home() {
   return (
     <div className="relative bg-black">
-      <div className="fixed top-0 z-50">
+      {/* <div className="fixed top-0 z-50">
         <Header />
-      </div>
-      <div className="relative md:fixed w-full md:w-6/12 min-h-screen inset-0">
+      </div> */}
+      <div className="sticky top-0 lg:top-auto md:fixed w-full md:w-6/12 min-h-screen inset-0">
         <Landing />
       </div>
-      <div className="w-full md:w-6/12 ml-auto">
+      <div className="w-full md:w-6/12 ml-auto relative">
         <div className="sticky top-0">
           <Portrait />
         </div>
-        <div className="sticky top-0">
+        <div className="lg:sticky lg:top-0">
           <AboutMe />
         </div>
-        <div className="sticky top-0">
+        <div className="sticky top-0" id="projects">
           <Projects />
         </div>
-        <div className="sticky top-0">
+        <div className="sticky top-0" id="contact">
           <Contact />
         </div>
       </div>

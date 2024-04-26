@@ -4,10 +4,10 @@ export default function Landing() {
   return (
     <div className="h-screen lg:w-[50vw] flex flex-col justify-center items-center lg:items-start lg:pl-14 xl:pl-20 gap-3 bg-primary-color text-tetriary-color">
       <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
-        Hello World!
+        Hello World. I am
       </h2>
       <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
-        I am <span className="text-secondary-color">Peter :-)</span>
+        <span className="text-secondary-color">Peter :-)</span>
       </h2>
       <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
         A software engineer.

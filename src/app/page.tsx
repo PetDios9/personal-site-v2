@@ -1,7 +1,9 @@
 import Header from "../components/Header";
-import AboutMe from "../components/AboutMe";
+import Landing from "../components/Landing";
 import Contact from "../components/Contact";
 import Portrait from "../components/Portrait";
+import Projects from "../components/Projects";
+import AboutMe from "../components/AboutMe";
 
 export default function Home() {
   return (
@@ -10,14 +12,17 @@ export default function Home() {
         <Header />
       </div>
       <div className="relative md:fixed w-full md:w-6/12 min-h-screen inset-0">
-        <AboutMe />
+        <Landing />
       </div>
       <div className="w-full md:w-6/12 ml-auto">
         <div className="sticky top-0">
           <Portrait />
         </div>
         <div className="sticky top-0">
-          <Contact />
+          <AboutMe />
+        </div>
+        <div className="sticky top-0">
+          <Projects />
         </div>
         <div className="sticky top-0">
           <Contact />

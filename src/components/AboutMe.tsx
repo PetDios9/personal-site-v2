@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="bg-tetriary-color lg:pt-[150px] text-primary-color min-h-screen h-auto flex flex-col justify-start items-left p-10 gap-6 lg:gap-8 text-pretty sticky top-0">
+    <div className="bg-tetriary-color lg:pt-[150px] text-primary-color h-screen flex flex-col justify-start items-left p-9 lg:p-10 gap-3 lg:gap-8 text-pretty sticky top-0">
       <h1 className=" lg:text-4xl font-medium">About Me</h1>
       <h2 className="lg:text-2xl">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

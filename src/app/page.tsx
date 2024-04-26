@@ -18,7 +18,7 @@ export default function Home() {
         <div className="sticky top-0">
           <Portrait />
         </div>
-        <div className="lg:sticky lg:top-0">
+        <div className="sticky top-0">
           <AboutMe />
         </div>
         <div className="sticky top-0" id="projects">

@@ -7,7 +7,7 @@ export default function Landing() {
         Hello World. I am
       </h2>
       <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
-        <span className="text-secondary-color">Peter :-)</span>
+        <span className="text-secondary-color">Peter Diosdado :-)</span>
       </h2>
       <h2 className="overflow-hidden whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
         A software engineer.

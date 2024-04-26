@@ -2,13 +2,8 @@ import Image from "next/image";
 
 export default function Portrait() {
   return (
-    <div className=" h-screen flex justify-center items-center">
-      <Image
-        src="/IMG_4737-min.jpeg"
-        alt="Peter Diosdado"
-        className="object-cover"
-        fill={true}
-      />
+    <div className=" h-screen flex justify-center items-center bg-cover bg-center bg-[url('/IMG_5479.jpg')]">
+      <div className=" inset-0 h-full w-full absolute bg-secondary-color opacity-35"></div>
     </div>
   );
 }

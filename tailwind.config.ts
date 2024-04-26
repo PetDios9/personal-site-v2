@@ -8,6 +8,7 @@ const config: Config = {
         "primary-color": "#022c22",
         "secondary-color": "#DEA54B",
         "tetriary-color": "#fdfdfd",
+        overlay: "rgba(10, 10, 10, .7)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

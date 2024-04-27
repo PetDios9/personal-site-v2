@@ -7,7 +7,7 @@ export default function Project({
 }) {
   return (
     <div
-      className={`lg:hover:scale-105 bg-[${bgImageURL}] bg-cover w-full bg-center h-full cursor-pointer transform transition duration-500 lg:hover:z-10`}
+      className={`lg:hover:scale-110 bg-[${bgImageURL}] bg-cover w-full bg-center h-full cursor-pointer transform transition duration-300 lg:hover:z-10`}
     >
       <div className="h-full w-auto bg-overlay flex items-center justify-center">
         <p className="text-tetriary-color">{projectName}</p>

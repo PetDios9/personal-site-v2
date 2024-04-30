@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [position, setPosition] = useState(window.pageYOffset);
+  const [position, setPosition] = useState(0);
   const [visible, setVisible] = useState(true);
   useEffect(() => {
     const handleScroll = () => {

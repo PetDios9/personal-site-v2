@@ -1,6 +1,31 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function Header() {
+  const [position, setPosition] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      let moving = window.pageYOffset;
+
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+  const visStyles = "top-0 transition-all ease-in duration-300";
+  const invisStyles = "top-[-100px] transition-all ease-out duration-300";
+  const cls = visible ? visStyles : invisStyles;
+
   return (
-    <nav className="flex flex-row justify-center gap-6 md:gap-10 p-8 border-b-2 border-secondary-color bg-primary-color w-screen text-tetriary-color">
+    <nav
+      id="navbar"
+      className={`flex flex-row justify-center gap-4 md:gap-10 p-8 border-b-2 border-secondary-color bg-primary-color w-screen text-tetriary-color fixed ${cls} z-50`}
+    >
       <a
         href="https://github.com/petdios9"
         target="_blank"

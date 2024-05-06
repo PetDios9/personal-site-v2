@@ -1,7 +1,9 @@
 export default function AboutMe() {
   return (
-    <div className="bg-tetriary-color lg:pt-[150px] text-primary-color h-screen flex flex-col justify-center items-left p-9 md:p-16 gap-3 md:gap-8 lg:gap-8 text-pretty sticky top-0">
-      <h1 className=" md:text-3xl italic lg:text-4xl font-medium ">About Me</h1>
+    <div className="bg-tetriary-color text-primary-color h-screen flex flex-col p-9 md:p-16 gap-4 md:gap-8 lg:gap-8 text-pretty sticky top-0">
+      <h1 className=" text-2xl md:text-3xl italic lg:text-4xl font-medium ">
+        About Me
+      </h1>
       <h2 className="md:text-2xl">
         Hi! My name is Peter Diosdado, Full Stack Software Engineer. Currently
         seeking my next professional role so if you are looking for star

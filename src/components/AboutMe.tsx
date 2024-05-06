@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="bg-tetriary-color text-primary-color h-screen flex flex-col p-9 md:p-16 gap-4 md:gap-8 lg:gap-8 text-pretty sticky top-0">
+    <div className="bg-tetriary-color text-primary-color h-screen flex flex-col justify-center p-9 md:p-16 gap-4 md:gap-8 lg:gap-8 text-pretty sticky top-0">
       <h1 className=" text-2xl md:text-3xl italic lg:text-4xl font-medium ">
         About Me
       </h1>
@@ -11,7 +11,7 @@ export default function AboutMe() {
         stack engineer, or just want to say hello, feel free to reach out to me
         through the contact button.
       </h2>
-      <h2 className="md:text-xl lg:text-3xl font-medium italic">
+      <h2 className="md:text-xl lg:text-2xl font-medium italic">
         Professional
       </h2>
       <p className="md:text-xl font-light">
@@ -22,7 +22,7 @@ export default function AboutMe() {
         technologies. Always ready to learn new languages and their tools to
         help me grow as a developer.
       </p>
-      <h2 className="md:text-xl lg:text-3xl font-medium italic">Personal</h2>
+      <h2 className="md:text-xl lg:text-2xl font-medium italic">Personal</h2>
       <p className="md:text-xl font-light">
         Father of two cats. Love to travel, try new restaurants, take film
         photos, scour Spotify playlists for new music, and read manga. Currently

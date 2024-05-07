@@ -1,11 +1,19 @@
 import Image from "next/image";
+import memoji from "../../public/memoji.jpeg";
 
 export default function Contact() {
   return (
     <div className="bg-tetriary-color h-screen flex justify-center items-center flex-col">
       <div className="bg-secondary-color h-[35vh] w-screen lg:w-[50vw] flex flex-col items-center justify-around pt-5 lg:pt-8 text-5xl font-bold">
         <h2 className="text-primary-color">Say Hi!</h2>
-        <div className="rounded-full flex bg-tetriary-color size-48 border-4 bg-[url('/avatar.png')] bg-center bg-cover"></div>
+        <div className="relative rounded-full flex bg-tetriary-color size-48 border-4 bg-[url('/avatar.png')] bg-center bg-cover">
+          <Image
+            className="rounded-full"
+            src={memoji}
+            alt="Peter Memoji"
+            fill={true}
+          />
+        </div>
       </div>
       <div className="flex flex-col items-center justify-center bg-tetriary-color h-[65vh] w-screen lg:w-[50vw] z-10 text-primary-color gap-8">
         <a

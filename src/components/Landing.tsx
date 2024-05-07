@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Landing() {
   return (
-    <div className="h-screen lg:w-[50vw] flex flex-col justify-center items-center lg:items-start lg:pl-14 xl:pl-20 gap-3 bg-primary-color text-tetriary-color lg:border-r-2 lg:border-secondary-color">
+    <div className="h-screen lg:w-[50vw] flex flex-col justify-center items-center lg:items-start lg:pl-14 xl:pl-20 gap-3 bg-primary-color text-tetriary-color">
       <h2 className="whitespace-nowrap text-4xl lg:text-5xl xl:text-6xl font-bold text-left">
         Hello World. I am
       </h2>

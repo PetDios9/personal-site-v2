@@ -35,7 +35,7 @@ export default function Header() {
         Github
       </a>
       <a
-        href=""
+        href="https://drive.google.com/file/d/1kVUbCx1aX9CB7xTmmWAVxrraGCk0jVjj/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="text-tetriary-color hover:text-secondary-color relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-secondary-color after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"

@@ -22,13 +22,13 @@ export default function Contact() {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center bg-tetriary-color h-[65vh] w-screen lg:w-[50vw] z-10 text-primary-color gap-8">
+      <div className="flex flex-col items-center justify-center bg-tetriary-color h-[65vh] w-screen lg:w-[50vw] z-10 text-primary-color gap-8 ">
         <a
           className="flex flex-col items-center justify-center gap-2"
           href="tel:12094790926"
         >
           <h2 className="text-5xl font-medium text-center">📱</h2>
-          <p className="text-xl lg:text-2xl font-bold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center">
             209-479-0926
           </p>
         </a>
@@ -37,7 +37,7 @@ export default function Contact() {
           href="mailto:peterdiosdadochavez@gmail.com"
         >
           <h2 className="text-5xl font-medium text-center">📧</h2>
-          <p className="text-xl lg:text-2xl font-bold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center">
             peterdiosdadochavez@gmail.com
           </p>
         </a>
@@ -47,7 +47,9 @@ export default function Contact() {
           target="_blank"
         >
           <h2 className="text-5xl font-medium text-center">💻</h2>
-          <p className="text-xl lg:text-2xl font-bold text-center">LinkedIn</p>
+          <p className="text-xl lg:text-2xl font-semibold text-center">
+            LinkedIn
+          </p>
         </a>
         <a
           className="flex flex-col items-center justify-center gap-2"
@@ -55,7 +57,9 @@ export default function Contact() {
           target="_blank"
         >
           <h2 className="text-5xl font-medium text-center">👨🏽‍💻</h2>
-          <p className="text-xl lg:text-2xl font-bold text-center">Github</p>
+          <p className="text-xl lg:text-2xl font-semibold text-center">
+            Github
+          </p>
         </a>
       </div>
     </div>

@@ -4,6 +4,7 @@ import Contact from "../components/Contact";
 import Portrait from "../components/Portrait";
 import Projects from "../components/Projects";
 import AboutMe from "../components/AboutMe";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         <div className="sticky top-0" id="projects">
           <Projects />
+        </div>
+        <div className="sticky top-0" id="contact">
+          <Testimonials />
         </div>
         <div className="sticky top-0" id="contact">
           <Contact />

@@ -30,6 +30,8 @@ const config: Config = {
           "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
         "text-slide-8":
           "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
+        fade: "fadeIn .7s ease-in-out",
+        "fade-longer": "fadeIn 1.2s ease-in-out",
       },
       keyframes: {
         "text-slide-2": {
@@ -171,6 +173,10 @@ const config: Config = {
           "100%": {
             transform: "translateY(-88.88%)",
           },
+        },
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
         },
       },
     },

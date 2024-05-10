@@ -19,6 +19,12 @@ export default function Testimonials() {
     author: "Roman Lopez",
     title: "Software Engineer @ Oracle GBU",
   };
+  const testimonial3: Testimonial = {
+    content:
+      "He picks up our poop regularly, plays with us, and makes sure we are well fed. He's cool, we guess.",
+    author: "George & Esme 🐱🐾",
+    title: "CCO's (Chief Cat Officer) @ Peter's Home ",
+  };
   let renderedTest;
   switch (testNum) {
     case 1:
@@ -27,24 +33,34 @@ export default function Testimonials() {
     case 2:
       renderedTest = testimonial2;
       break;
+    case 3:
+      renderedTest = testimonial3;
+      break;
   }
   const handleClick = () => {
-    if (testNum === 2) {
+    if (testNum === 3) {
       setTestNum(1);
       return;
     }
     setTestNum(testNum + 1);
-    console.log(testNum);
   };
   return (
-    <div className="h-screen w-screen lg:w-[50vw] flex flex-col justify-center items-start bg-secondary-color text-primary-color p-6 lg:p-24 gap-8">
-      <h2 className="font-bold text-3xl absolute top-32">Testimonials</h2>
-      <p className=" text-left text-xl lg:text-3xl font-bold">
+    <div
+      key={testNum}
+      className="h-screen w-screen lg:w-[50vw] flex flex-col justify-center items-start bg-secondary-color text-primary-color p-6 lg:p-24 gap-8"
+    >
+      <h2 className="font-black text-3xl absolute top-32">Testimonials</h2>
+      <p
+        key={testNum}
+        className=" text-left text-xl lg:text-3xl font-bold animate-fade delay-75"
+      >
         "{renderedTest!.content}"
       </p>
       <div>
-        <p className="lg:text-xl font-bold">{renderedTest!.author}</p>
-        <p className="font-bold">{renderedTest!.title}</p>
+        <p className="lg:text-xl font-bold animate-fade delay-500">
+          {renderedTest!.author}
+        </p>
+        <p className="font-bold animate-fade">{renderedTest!.title}</p>
       </div>
       <button
         className="rounded-full bg-primary-color absolute bottom-32 p-3"

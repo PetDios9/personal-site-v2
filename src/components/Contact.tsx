@@ -4,14 +4,10 @@ import memoji from "../../public/memoji.jpeg";
 export default function Contact() {
   return (
     <div className="bg-tetriary-color h-screen flex justify-center items-center flex-col">
-      <div className="bg-secondary-color h-[35vh] w-screen lg:w-[50vw] flex flex-col items-center justify-around pt-5 lg:pt-8">
-        <div className="flex flex-col justify-center items-center">
-          <h2 className="text-primary-color text-3xl font-semibold">
-            Reach Out!
-          </h2>
-          <h3 className="text-primary-color text-2xl">
-            Always available for a chat
-          </h3>
+      <div className="bg-primary-color h-[35vh] w-screen lg:w-[50vw] flex flex-col items-center justify-around pt-5 lg:pt-8">
+        <div className="flex flex-col justify-center items-center text-tetriary-color">
+          <h2 className="text-3xl font-semibold">Reach Out!</h2>
+          <h3 className="text-2xl">Always available for a chat</h3>
         </div>
         <div className="relative rounded-full flex bg-tetriary-color size-40 border-4 bg-[url('/avatar.png')] bg-center bg-cover">
           <Image

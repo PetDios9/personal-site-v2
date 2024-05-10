@@ -49,7 +49,9 @@ export default function Testimonials() {
       key={testNum}
       className="h-screen w-screen lg:w-[50vw] flex flex-col justify-center items-start bg-secondary-color text-primary-color p-6 lg:p-24 gap-8"
     >
-      <h2 className="font-black text-3xl absolute top-32">Testimonials</h2>
+      <h2 className="font-black text-3xl absolute top-12 md:top-32">
+        Testimonials
+      </h2>
       <p
         key={testNum}
         className=" text-left text-xl lg:text-3xl font-bold animate-fade delay-75"
@@ -63,7 +65,7 @@ export default function Testimonials() {
         <p className="font-bold animate-fade">{renderedTest!.title}</p>
       </div>
       <button
-        className="rounded-full bg-primary-color absolute bottom-32 p-3"
+        className="rounded-full bg-primary-color absolute bottom-12 md:bottom-32 p-3"
         onClick={handleClick}
       >
         ➡️

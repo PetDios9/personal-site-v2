@@ -65,10 +65,10 @@ export default function Testimonials() {
         <p className="font-bold animate-fade">{renderedTest!.title}</p>
       </div>
       <button
-        className="rounded-full bg-primary-color absolute bottom-12 md:bottom-32 p-3"
+        className="rounded-full bg-primary-color absolute bottom-12 md:bottom-32 p-4 text-tetriary-color"
         onClick={handleClick}
       >
-        ➡️
+        ➡️ Next Testimonial
       </button>
     </div>
   );

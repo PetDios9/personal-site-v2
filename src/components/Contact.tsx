@@ -28,7 +28,7 @@ export default function Contact() {
           href="tel:12094790926"
         >
           <h2 className="text-5xl font-medium text-center">📱</h2>
-          <p className="text-xl lg:text-2xl font-semibold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center underline">
             209-479-0926
           </p>
         </a>
@@ -37,7 +37,7 @@ export default function Contact() {
           href="mailto:peterdiosdadochavez@gmail.com"
         >
           <h2 className="text-5xl font-medium text-center">📧</h2>
-          <p className="text-xl lg:text-2xl font-semibold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center underline">
             peterdiosdadochavez@gmail.com
           </p>
         </a>
@@ -47,7 +47,7 @@ export default function Contact() {
           target="_blank"
         >
           <h2 className="text-5xl font-medium text-center">💻</h2>
-          <p className="text-xl lg:text-2xl font-semibold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center underline">
             LinkedIn
           </p>
         </a>
@@ -57,7 +57,7 @@ export default function Contact() {
           target="_blank"
         >
           <h2 className="text-5xl font-medium text-center">👨🏽‍💻</h2>
-          <p className="text-xl lg:text-2xl font-semibold text-center">
+          <p className="text-xl lg:text-2xl font-semibold text-center underline">
             Github
           </p>
         </a>

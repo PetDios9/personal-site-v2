@@ -28,9 +28,11 @@ export default function Landing() {
         </ul>
       </span>
       <div>
-        <button className="rounded-full border-2 border-secondary-color bg-secondary-color lg:bg-transparent hover:bg-secondary-color text-tetriary-color px-8 py-3 cursor-pointer transform transition duration-300 animate-fade-longer">
-          <a href="#contact">Let's Make Something Great</a>
-        </button>
+        <a href="#contact">
+          <button className="rounded-full border-2 border-secondary-color bg-secondary-color lg:bg-transparent hover:bg-secondary-color text-tetriary-color px-8 py-3 cursor-pointer transform transition duration-300 animate-fade-longer">
+            <p>Let's Make Something Great</p>
+          </button>
+        </a>
       </div>
     </div>
   );

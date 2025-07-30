@@ -23,15 +23,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center bg-tetriary-color h-[65vh] w-screen lg:w-[50vw] z-10 text-primary-color gap-8 ">
-        <a
-          className="flex flex-col items-center justify-center gap-2"
-          href="tel:12094790926"
-        >
-          <h2 className="text-5xl font-medium text-center">📱</h2>
-          <p className="text-xl lg:text-2xl font-semibold text-center underline">
-            209-479-0926
-          </p>
-        </a>
+        
         <a
           className="flex flex-col items-center justify-center gap-2"
           href="mailto:peterdiosdadochavez@gmail.com"
